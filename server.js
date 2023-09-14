@@ -3,8 +3,8 @@ const bodyParser = require("body-parser");
 const logger = require("morgan");
 const app = express();
 const path = require("path");
-const {sq, testDbConnection} = require("./utils/database/connection")
-// const cron = require("node-cron");
+const {testDbConnection} = require("./utils/database/connection")
+const cron = require("node-cron");
 
 const { PORT } = require("./database/config/serverConfig");
 
