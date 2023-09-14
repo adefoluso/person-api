@@ -1,0 +1,35 @@
+{
+  "name": "person-api",
+  "version": "1.0.0",
+  "description": "person Rest Apis with Express, Sequelize & PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adefoluso/person-api.git"
+  },
+  "author": "foluso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adefoluso/person-api/issues"
+  },
+  "homepage": "https://github.com/adefoluso/person-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cron": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.10.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1",
+    "uuid": "^9.0.1"
+  }
+}
