@@ -89,8 +89,8 @@ npx sequelize db:migrate
 - To run the server execute
 
  ```
- npm start
+ yarn dev or npm run dev
  ```
 
 ##### UML DIAGRAM FOR PROJECT
-The UML diagram can be found [here] <https://github.com/adefoluso/stage2-Task/blob/main/src/UML-IMAGE/UML_screenshot.png>
+The UML diagram can be found [here] <https://github.com/adefoluso/person-api/blob/main/UML_DIAGRAM/UML_screenshot.png>
