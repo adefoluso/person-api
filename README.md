@@ -20,7 +20,8 @@ Lets take a look at our set-up
 Before you begin, ensure you have the following:
 
 - [Node.js](https://nodejs.org/) installed on your machine.
-- A database system (PostgreSQL) for this instance i used the postgress instance on supabase .
+- A database system (PostgreSQL) for this project, i used the postgress instance on supabase 
+- Sequelize ORM.
 
 ### Setup the project
 
@@ -92,5 +93,8 @@ npx sequelize db:migrate
  yarn dev or npm run dev
  ```
 
-##### UML DIAGRAM FOR PROJECT
+## UML DIAGRAM FOR PROJECT
 The UML diagram can be found [here] <https://github.com/adefoluso/person-api/blob/main/UML_DIAGRAM/UML_screenshot.png>
+
+## API DOCUMENTATION
+The API DOCUMENTATION can be found [here]<https://documenter.getpostman.com/view/20023343/2s9YC5zCgE>
