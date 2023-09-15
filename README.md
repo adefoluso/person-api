@@ -47,15 +47,15 @@ Before you begin, ensure you have the following:
 
     ```
         PORT=3000,
-        DATABASE_HOST,
+        DB_HOST,
         DB_USERNAME,
-        DEV_DATABASE_PORT,
-        DEV_DATABASE,
-        DATABASE_PASSWORD
-        POSTGRESQL_DB_URL
+        DB_PORT,
+        DB_DATABASE,
+        DB_PASSWORD
+        DB_URL
     ```
 
-- go inside the root dirtectory of the project and execute the following command:
+- inside the root dirtectory of the project and execute the following command:
 
     ```
       npx sequelize init

@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const logger = require("morgan");
 const app = express();
 const path = require("path");
-const {testDbConnection} = require("./utils/database/connection")
+const { sequelize, testDbConnection } = require("./utils/database/connection");
 const cron = require("node-cron");
 
 const { PORT } = require("./database/config/serverConfig");
@@ -13,6 +13,7 @@ const routes = require("./routes/index");
 const setupAndStartServer = async () => {
    try {
      await testDbConnection();
+     console.log("Connection has been established successfully.");
    } catch (error) {
      console.error("Unable to connect to the database:", error);
      process.exit(1);
